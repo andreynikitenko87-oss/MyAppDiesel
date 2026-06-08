@@ -1,29 +1,26 @@
 {
-  "name": "fresh-coffee",
+  "name": "myappdiesel",
   "version": "1.0.0",
-  "description": "Fresh Coffee - A modern coffee shop website",
+  "description": "Open Road Diesel Repair local website project",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 127.0.0.1",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --host 127.0.0.1"
   },
   "keywords": [
-    "coffee",
-    "website",
-    "cafe"
+    "diesel",
+    "repair",
+    "website"
   ],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.0.0"
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.16"
   }
 }
-
-

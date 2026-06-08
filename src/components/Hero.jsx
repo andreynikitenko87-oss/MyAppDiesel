@@ -3,9 +3,10 @@ import React from 'react'
 function Hero() {
   return (
     <section id="home" className="hero">
-      <h1>Welcome to Fresh Coffee</h1>
-      <p>The freshest coffee experience in town</p>
-      <a href="#menu" className="btn">View Menu</a>
+      <img src="/diesel-logo.jpg" alt="Open Road Diesel Repair logo" className="hero-logo" />
+      <h1>Open Road Diesel Repair</h1>
+      <p>Expert diesel engine repair and maintenance</p>
+      <a href="#services" className="btn">View Services</a>
     </section>
   )
 }
